@@ -21,4 +21,13 @@ public class TestCase {
     Assert.assertEquals(ints[0], 1);
   }
 
+  @Test
+  public void ThirdMaximumNum() {
+    int[] test = new int[3];
+    test[0] = Integer.MIN_VALUE;
+    test[1] = 1;
+    test[2] = Integer.MIN_VALUE;
+    int ret = ThirdMaximumNum.thirdMax(test);
+    Assert.assertEquals(ret, 1);
+  }
 }

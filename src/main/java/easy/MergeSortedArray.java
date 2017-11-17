@@ -11,7 +11,7 @@ package easy;
  */
 public class MergeSortedArray{
 
-  public void merge(int[] nums1, int m, int[] nums2, int n) {
+  public static void merge(int[] nums1, int m, int[] nums2, int n) {
     int pos_m = 0, pos_n = 0, pos;
     int[] tmp = new int[m];
     for(int i = 0;i < m;i++) {
